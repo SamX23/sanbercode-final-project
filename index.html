@@ -1,0 +1,138 @@
+<!-- Untuk step ini, Anda diharapkan sudah membuat git dan menyambungkan ke Codesandbox, jika belum coba ikuti tutorialnya di video berikut ini  -->
+<!-- https://codesandbox.io/s/vibrant-blackburn-vrdwu?file=/src/App.js -->
+
+<!-- 
+    Pada step ini, Anda hanya diharapkan sudah mengimplementasikan desain mockup yang Anda sudah buat ke code React. 
+    Namun, Anda tidak perlu sampai jadi semua, output yang diharapkan hanya sampai static version dari website Anda.
+
+    Artinya website Anda tidak perlu harus sudah interaktif, dengan kata lain website Anda tidak perlu sudah 
+    mengimplementasikan state, dan fitur - fitur lain yang interaktif ke user.
+-->
+
+<!-- 
+    Pada step ini, Anda diharapkan sudah mengimplementasikan desain mockup yang Anda sudah buat ke code React dan juga sudah membuat static version dari website Anda. Dan sekarang, Anda diharapkan membuat interactive version dari website Anda.
+
+    Artinya website Anda harus sudah interaktif, dengan kata lain website Anda sudah mengimplementasikan state, dan fitur-fitur lain yang interaktif ke user.
+    Dan setelah itu, poin plus jika Anda melakukan deploy ke Firebase Hosting. Dan PASTIKAN ANDA SUDAH UPDATE CODESANDBOX ANDA DENGAN REPO GITHUB ANDA YANG TERBARU. Kami tidak bertanggungjawab dan tidak menerima susulan jika saat deadline Codesandbox Anda masih versi yang belum terupdate dari code Anda.
+    Jika Anda sudah merasa yakin akan pekerjaan Anda, silakan submit ke form berikut
+    https://forms.gle/GrR8biqYJ8xTxHVX9
+-->
+
+<!-- 
+    Para peserta diharapkan untuk membuat sebuah website dengan styling dan layout yang bebas, 
+    namun WAJIB menerapkan beberapa hal untuk implementasi code nya:
+
+    Mock - Website dibangun menggunakan React JS dengan framework CRA.
+    Component yang digunakan harus ada kedua-duanya yaitu Class dan Function Component.
+    Menggunakan LifeCycle method.
+    Menerapkan metode Composing, Extracting Component, dan Lifting State Up.
+    Menggunakan Hooks (Nilai plus jika ada Custom Hooks).
+    Website mengandung beberapa page dengan routing menggunakan React Router (react-router-dom).
+    Menggunakan State Management, boleh pilih antara Context API atau Redux, maupun keduanya.
+    Mock - Terdapat form (boleh Uncontrolled maupun controlled)
+    dan juga lists.
+    Terdapat unit testing untuk masing-masing komponen atau page keseluruhan.
+
+    Para peserta WAJIB melakukan hal-hal berikut:
+    Poin plus jika peserta men-deploy website nya ke Firebase hosting.
+    Peserta wajib mengisi form berikut untuk men-submit final project https://forms.gle/GrR8biqYJ8xTxHVX9
+    Done- Peserta wajib membuat repository di github dan mengkoneksikannya ke codesandbox (caranya dapat dilihat di video yang ada di referensi)
+    Peserta wajib memberi comment pada code nya untuk menjelaskan fitur-fitur yang ada di website 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final-task</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img src="https://sanbercode.com/assets/img/identity/logo-horizontal.svg">
+            </div>
+            <div class="header-right">
+                <p>Menu</p>
+                <ul>
+                    <li>Home</li>
+                    <li>Hire Me !</li>
+                </ul>
+                <img src="search" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <p>KTP tertulis Sami Kalammallah karena kesalahan akte yang lama tak diurus, jadi ya lumayan ribet.</p>
+            <p>
+                I am a highly motivated selftaught programmer, seorang wirausaha di waktu luang dan saat ini bekerja
+                secara REMOTE di perusahaan terbaik yaitu Kirim.Email sebagai Technical Support.
+            </p>
+            <p>
+                Berikut beberapa klaim dan hobi saya saat ini:
+            </p>
+            <ul>
+                <li>
+                    Saya bisa ngoding (Currently Java and Python)
+                </li>
+                <li>
+                    Saya bisa Digital Marketing + SEO
+                </li>
+                <li>
+                    Saya suka dunia IT dan IoT
+                </li>
+                <li>
+                    Saya suka Photography
+                </li>
+                <li>
+                    I love sports ( Swimming, Running, Cycling and Speeding)
+                </li>
+                <li>
+                    dan saya hobi mempelajari hal yang baru :)
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <section>
+        <div class="container">
+            <div class="hire-me">
+                <h4>Hire Me !</h4>
+                <form>
+                    <label>Nama         : <input type="text" placeholder="Sami Kalammallah"></label><br>
+                    <label>Email        : <input type="email" placeholder="Skalexsong@gmail.com"></label><br>
+                    <label>Telp/WA      : <input type="number" placeholder="089657511134"></label><br>
+                    <label>Perusahaan   : <input type="text" placeholder="Azzure Tech"></label><br>
+                    <label>Kebutuhan    : <textarea placeholder="Saya membutuhkan Web App" cols="10" rows="10"></textarea></label><br>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <img src="" alt="logo">
+            </div>
+            <div class="footer-center">
+                <h5>Existence :</h5>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Github</li>
+                    <li>LinkedIn</li>
+                    <li>WhatsApp</li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&COPY; 2020 - Sanbercode - Sami Kalammallah</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
