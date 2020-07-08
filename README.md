@@ -5,7 +5,7 @@
 ## Last Week Daily Task
 
 - (**Done**) Day 24 Mock Version
-- (**Dibe**) Day 25 Static Version
+- (**Done**) Day 25 Static Version
 - Day 26 Interactive Version
 - Day 27 - 30 Final Project Sabtu 11 Juli 2020, 20:00 WIB
 

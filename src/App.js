@@ -5,30 +5,35 @@ function Header() {
   return (
     <header>
       <div className="container">
-        <div className="top-wrapper">
-          <div className="header-left">
-            <img
-              src="https://sanbercode.com/assets/img/identity/logo-horizontal.svg"
-              alt="logo"
-            />
-          </div>
-          <div className="header-right">
-            <p>Menu</p>
-            <ul>
-              <li>Home</li>
-              <li>Hire Me !</li>
-            </ul>
-            <img src="search" alt="" />
-          </div>
+        <div className="header-left">
+          <img
+            src="https://sanbercode.com/assets/img/identity/logo-horizontal.svg"
+            alt="logo"
+          />
+        </div>
+        <div className="header-right">
+          <ul>
+            <li>Home</li>
+            <li>Hire Me !</li>
+          </ul>
+          <img src="search" alt="" />
         </div>
       </div>
     </header>
   );
 }
 
-function Main() {
+function TopWrapper() {
   return (
-    <main>
+    <div className="top-wrapper">
+      <div className="container"></div>
+    </div>
+  );
+}
+
+function MiddleWrapper() {
+  return (
+    <div className="middle-wrapper">
       <div className="container">
         <p>
           KTP tertulis Sami Kalammallah karena kesalahan akte yang lama tak
@@ -49,6 +54,15 @@ function Main() {
           <li>dan saya hobi mempelajari hal yang baru :)</li>
         </ul>
       </div>
+    </div>
+  );
+}
+
+function Main() {
+  return (
+    <main>
+      <TopWrapper />
+      <MiddleWrapper />
     </main>
   );
 }
