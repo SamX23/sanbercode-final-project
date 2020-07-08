@@ -2,23 +2,30 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/SamX23/sanbercode-final-project)
 
+## Last Week Daily Task
+
+- (**Done**) Day 24 Mock Version
+- (**Dibe**) Day 25 Static Version
+- Day 26 Interactive Version
+- Day 27 - 30 Final Project Sabtu 11 Juli 2020, 20:00 WIB
+
 ## Task List
 
-- (**Mock**) Website dibangun menggunakan React JS dengan framework CRA.
+- (**Done**) Website dibangun menggunakan React JS dengan framework CRA.
 - Component yang digunakan harus ada kedua-duanya yaitu Class dan Function Component.
 - Menggunakan LifeCycle method.
 - Menerapkan metode Composing, Extracting Component, dan Lifting State Up.
 - Menggunakan Hooks (Nilai plus jika ada Custom Hooks).
 - Website mengandung beberapa page dengan routing menggunakan React Router (react-router-dom).
 - Menggunakan State Management, boleh pilih antara Context API atau Redux, maupun keduanya.
-- (**Mock**) form (boleh Uncontrolled maupun controlled) 
+- (**Mock**) form (boleh Uncontrolled maupun controlled)
 - dan juga lists.
 - Terdapat unit testing untuk masing-masing komponen atau page keseluruhan.
 
 ## Additional Task
 
 - Poin plus jika peserta men-deploy website nya ke Firebase hosting.
-- Peserta wajib mengisi form berikut untuk men-submit final project https://forms.gle/GrR8biqYJ8xTxHVX9
+- Peserta wajib mengisi form berikut untuk men-submit final project - <https://forms.gle/GrR8biqYJ8xTxHVX9>
 - (**Done**) Peserta wajib membuat repository di github dan mengkoneksikannya ke codesandbox.
 - (**Done**) Peserta wajib memberi comment pada code nya untuk menjelaskan fitur-fitur yang ada di website.
 
