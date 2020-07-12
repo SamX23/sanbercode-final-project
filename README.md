@@ -30,8 +30,8 @@
 
 ## Link
 
-- [Firebase] - Deploy web on Firebase. (**Not Yet**) 
+- [Firebase] - Deploy web on Firebase.
 - [Codesanbox] - Connect github into codesandbox.
 
 [Codesanbox]: <https://codesandbox.io/s/final-project-v9oyj>
-[Firebase]: <https://console.firebase.google.com>
+[Firebase]: <https://first-react-app-b0a7c.firebaseapp.com/>
