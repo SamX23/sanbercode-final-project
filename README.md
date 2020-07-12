@@ -23,8 +23,8 @@
 
 ## Additional Task
 
-- Poin plus jika peserta men-deploy website nya ke Firebase hosting.
-- Peserta wajib mengisi form berikut untuk men-submit final project - <https://forms.gle/GrR8biqYJ8xTxHVX9>
+- (**Done**) Poin plus jika peserta men-deploy website nya ke Firebase hosting.
+- (**Done**) Peserta wajib mengisi form berikut untuk men-submit final project - <https://forms.gle/GrR8biqYJ8xTxHVX9>
 - (**Done**) Peserta wajib membuat repository di github dan mengkoneksikannya ke codesandbox.
 - (**Done**) Peserta wajib memberi comment pada code nya untuk menjelaskan fitur-fitur yang ada di website.
 
