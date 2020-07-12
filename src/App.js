@@ -1,5 +1,7 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
+import { Home, Form } from "./views";
 
 function Header() {
   return (
@@ -13,91 +15,17 @@ function Header() {
         </div>
         <div className="header-right">
           <ul>
-            <li>Home</li>
-            <li>Hire Me !</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/form">Hire Me!</Link>
+            </li>
           </ul>
           <img src="search" alt="" />
         </div>
       </div>
     </header>
-  );
-}
-
-function TopWrapper() {
-  return (
-    <div className="top-wrapper">
-      <div className="container"></div>
-    </div>
-  );
-}
-
-function MiddleWrapper() {
-  return (
-    <div className="middle-wrapper">
-      <div className="container">
-        <p>
-          KTP tertulis Sami Kalammallah karena kesalahan akte yang lama tak
-          diurus, jadi ya lumayan ribet.
-        </p>
-        <p>
-          I am a highly motivated selftaught programmer, seorang wirausaha di
-          waktu luang dan saat ini bekerja secara REMOTE di perusahaan terbaik
-          yaitu Kirim.Email sebagai Technical Support.
-        </p>
-        <p>Berikut beberapa klaim dan hobi saya saat ini:</p>
-        <ul>
-          <li>Saya bisa ngoding (Currently Java and Python)</li>
-          <li>Saya bisa Digital Marketing + SEO</li>
-          <li>Saya suka dunia IT dan IoT</li>
-          <li>Saya suka Photography</li>
-          <li>I love sports ( Swimming, Running, Cycling and Speeding)</li>
-          <li>dan saya hobi mempelajari hal yang baru :)</li>
-        </ul>
-      </div>
-    </div>
-  );
-}
-
-function Main() {
-  return (
-    <main>
-      <TopWrapper />
-      <MiddleWrapper />
-    </main>
-  );
-}
-
-function FormPage() {
-  return (
-    <div className="hire-me">
-      <h4>Hire Me !</h4>
-      <form>
-        <div>
-          <label>Nama : </label>
-          <input type="text" placeholder="Sami Kalammallah" />
-        </div>
-        <div>
-          <label>Email : </label>
-          <input type="email" placeholder="Skalexsong@gmail.com" />
-        </div>
-        <div>
-          <label>Telp/WA : </label>
-          <input type="number" placeholder="089657511134" />
-        </div>
-        <div>
-          <label>Perusahaan : </label>
-          <input type="text" placeholder="Azzure Tech" />
-        </div>
-        <div>
-          <label>Kebutuhan : </label>
-          <textarea
-            placeholder="Saya membutuhkan Web App"
-            cols="10"
-            rows="10"
-          ></textarea>
-        </div>
-      </form>
-    </div>
   );
 }
 
@@ -126,15 +54,25 @@ function Footer() {
   );
 }
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Main />
-      <FormPage />
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Header />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/form">
+              <Form />
+            </Route>
+          </Switch>
+          <Footer />
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;

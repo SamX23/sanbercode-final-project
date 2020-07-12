@@ -6,20 +6,19 @@
 
 - (**Done**) Day 24 Mock Version
 - (**Done**) Day 25 Static Version
-- Day 26 Interactive Version
-- Day 27 - 30 Final Project Sabtu 11 Juli 2020, 20:00 WIB
+- (**Half**) Day 26 Interactive Version
+- (**Half**) Day 27 - 30 Final Project Sabtu 11 Juli 2020, 20:00 WIB
 
 ## Task List
 
 - (**Done**) Website dibangun menggunakan React JS dengan framework CRA.
-- Component yang digunakan harus ada kedua-duanya yaitu Class dan Function Component.
+- (**Done**) Component yang digunakan harus ada kedua-duanya yaitu Class dan Function Component.
 - Menggunakan LifeCycle method.
-- Menerapkan metode Composing, Extracting Component, dan Lifting State Up.
+- (**Done**) Menerapkan metode Composing, Extracting Component, dan Lifting State Up.
 - Menggunakan Hooks (Nilai plus jika ada Custom Hooks).
-- Website mengandung beberapa page dengan routing menggunakan React Router (react-router-dom).
+- (**Done**) Website mengandung beberapa page dengan routing menggunakan React Router (react-router-dom).
 - Menggunakan State Management, boleh pilih antara Context API atau Redux, maupun keduanya.
-- (**Mock**) form (boleh Uncontrolled maupun controlled)
-- dan juga lists.
+- (**Half**) form (boleh Uncontrolled maupun controlled) dan juga lists.
 - Terdapat unit testing untuk masing-masing komponen atau page keseluruhan.
 
 ## Additional Task
@@ -31,7 +30,7 @@
 
 ## Link
 
-- [Firebase] - Deploy web on Firebase.
+- [Firebase] - Deploy web on Firebase. (**Not Yet**) 
 - [Codesanbox] - Connect github into codesandbox.
 
 [Codesanbox]: <https://codesandbox.io/s/final-project-v9oyj>
